@@ -20,14 +20,14 @@ const questions = [
 
   {
     type: "input",
-    name: "project name",
+    name: "title",
     message: "What is your project name?",
   },
   {
     type: "list",
     name: "license",
     message: "What kind of license will your project have?",
-    choices: ["apache-2.0", "cc", "epl-1.0", "none"],
+    choices: ["apache-2.0", "cc", "isc", "none"],
   },
   {
     type: "input",
@@ -47,18 +47,19 @@ const questions = [
   {
     type: "input",
     name: "contributing",
-    message: "What does the user need to know about contributin to the repo?",
+    message: "What does the user need to know about contributing to the repo?",
   },
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+}
 
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then((responses) => {
-    console.log(responses);
-    console.log(responses.github);
+    writeToFile("readme.md", generateMarkdown({ ...responses }));
   });
 }
 
