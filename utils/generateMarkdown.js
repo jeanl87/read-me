@@ -1,8 +1,10 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  return `# ${license}
-  `; //use example Dan sent 
+  if (license !== "None") {
+    return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+  }
+  return "";
 }
 
 // TODO: Create a function that returns the license link
@@ -26,23 +28,48 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
   ## Description
-   
+  What was your motivation?
+  
+  The motivation 
+  
+  Why did you build this project?
+  
+  To learn how to write markdowns and generate a good readme file 
+  
+  What problem does it solve?
+  
+  
+  What did you learn? 
+  
+  Working with nodejs you don't need to write too much code. 
 
   ## Table of Content
-  * [github](#github)
-  * [license](#license)
-  ## Github
-  ## ${data.github}
+  * [Github](#github)
+  * [License](#license)
+  * [Test](#test)
+  * [Repository](#respository)
+  
+  
+  ## Github Username 
+   ${data.github}
 
   ## Email 
-  ## ${data.email}
+   ${data.email}
 
   ## License 
-  ## ${data.license}
-  ## ${data.dependencies}
-  ## ${data.command}
-  ## ${data.repo}
-  ## ${data.contributing}
+   ${data.license}
+
+  ## Dependencies 
+   ${data.dependencies}
+
+  ## Run Test 
+   ${data.command}
+
+  ## Repositiry 
+   ${data.repo}
+
+  ## Contributing to repositiry 
+   ${data.contributing}
 `;
 }
 

@@ -37,7 +37,7 @@ const questions = [
   {
     type: "input",
     name: "command",
-    message: "What command should be run to run tests",
+    message: "What command should be run to run tests?",
   },
   {
     type: "input",
