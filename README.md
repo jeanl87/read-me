@@ -1,15 +1,17 @@
-# Readme
+# ReadMe
   ## Description
+
   What was your motivation?
   
-  The motivation 
+  The motivation for this assignemnt was to be able to understand how to use node js. 
   
   Why did you build this project?
   
-  To learn how to write markdowns and generate a good readme file 
+  To learn how to write markdowns and generate a good readme file. 
   
   What problem does it solve?
   
+  How to write proper and minimal amount of code. 
   
   What did you learn? 
   
@@ -23,22 +25,22 @@
   
   
   ## Github Username 
-   lj
+   jeanl87
 
   ## Email 
-   ljean
+   jeanl@mskcc.org
 
   ## License 
-   none
+   cc
 
-  ## Dependencies 
-   inquirer
+  ## Dependencies  
+   npm init
 
   ## Run Test 
-   Node 
+   n/a
 
   ## Repositiry 
-   nothing 
+   nothing
 
-  ## Contributing to repositiry 
-   nothing 
+  ## Contributing to repository
+   nothing

@@ -34,16 +34,18 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
   ## Description
+
   What was your motivation?
   
-  The motivation 
+  The motivation for this assignemnt was to be able to understand how to use node js. 
   
   Why did you build this project?
   
-  To learn how to write markdowns and generate a good readme file 
+  To learn how to write markdowns and generate a good readme file. 
   
   What problem does it solve?
   
+  How to write proper and minimal amount of code. 
   
   What did you learn? 
   
@@ -65,7 +67,7 @@ function generateMarkdown(data) {
   ## License 
    ${data.license}
 
-  ## Dependencies 
+  ## Dependencies  
    ${data.dependencies}
 
   ## Run Test 
@@ -74,7 +76,7 @@ function generateMarkdown(data) {
   ## Repositiry 
    ${data.repo}
 
-  ## Contributing to repositiry 
+  ## Contributing to repository
    ${data.contributing}
 `;
 }
