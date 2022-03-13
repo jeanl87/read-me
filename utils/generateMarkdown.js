@@ -51,6 +51,15 @@ function generateMarkdown(data) {
   
   Working with nodejs you don't need to write too much code. 
 
+  Github Repo
+
+  https://github.com/jeanl87/read-me.git
+
+  Recording 
+  
+  https://drive.google.com/file/d/1QMiNYCJbvw-Yv0xeoPyRmZV4-o4Iedhm/view
+  
+
   ## Table of Content
   * [Github](#github)
   * [License](#license)
@@ -78,6 +87,7 @@ function generateMarkdown(data) {
 
   ## Contributing to repository
    ${data.contributing}
+
 `;
 }
 

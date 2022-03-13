@@ -17,6 +17,15 @@
   
   Working with nodejs you don't need to write too much code. 
 
+  Github Repo
+
+  https://github.com/jeanl87/read-me.git
+
+  Recording 
+  
+  https://drive.google.com/file/d/1QMiNYCJbvw-Yv0xeoPyRmZV4-o4Iedhm/view
+  
+
   ## Table of Content
   * [Github](#github)
   * [License](#license)
@@ -28,19 +37,20 @@
    jeanl87
 
   ## Email 
-   jeanl@mskcc.org
+   ljean87@gmail.com
 
   ## License 
-   cc
+   none
 
   ## Dependencies  
-   npm init
+   npm
 
   ## Run Test 
-   n/a
+   node index
 
   ## Repositiry 
-   nothing
+   n/a
 
   ## Contributing to repository
-   nothing
+   n/a
+
